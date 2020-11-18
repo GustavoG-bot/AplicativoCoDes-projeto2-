@@ -60,6 +60,8 @@ ul {
 
 
 li {
+    flex-direction: row;
+    align-items: center;
     border-bottom: .1rem solid black;
     font-size: 2rem;
     padding: 1rem;
@@ -79,4 +81,8 @@ footer {
     padding: 0.5rem;
     background-color: red;
     color: white;
+}
+
+.caras {
+    vertical-align: middle;
 }

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 
 html {
     height: 100%;
-    font-family: 'Roboto', 'Lora' , sans-serif;
+    font-family: 'Roboto', 'PT sans' , sans-serif;
 }
 body {
     display: flex;
@@ -72,52 +72,11 @@ a {
     text-decoration: none;
 }
 
-input {
-    margin: 1rem;
-    flex-grow: 1;
-}
 
-.c1t2 {
-    font-size: 2rem;
-    margin:1rem;
-}
-
-h2 {
-    margin: 1rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    font-family: 'Roboto Slab', 'PT serif', serif;
-}
-
-form {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-label {
-    display: flex;
+footer {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-}
-
-input[type="text"] {
-    font-size: xx-large;
-}
-
-input[type="submit"] {
-    font-size: xx-large;
-    margin:1rem;
-}
-span {
-    font-size: xx-large;
-}
-
-.foto {
-    padding: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
 }

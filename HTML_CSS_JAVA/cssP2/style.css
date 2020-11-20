@@ -111,3 +111,23 @@ input {
     margin: 1rem;
     width: 50%;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 2.5rem;
+    text-align: center;
+  }
+
+table {
+    font-size: xx-large;
+    width: 75%;
+    height: 100%;
+}
+
+th{
+    width: 50%;
+}

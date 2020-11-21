@@ -109,19 +109,17 @@ input {
     width: 50%;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+tr:nth-child(odd) {
+    background-color: #eeeeee;
   }
   
-  th, td {
-    padding: 2.5rem;
-    text-align: center;
+  td {
+    padding: .5rem;
   }
 
 table {
     font-size: xx-large;
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 

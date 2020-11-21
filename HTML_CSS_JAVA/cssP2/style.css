@@ -142,3 +142,38 @@ select {
 .entrar {
     font-size: x-large;
 }
+
+h2{
+    font-size: x-large;
+    align-self: flex-start;
+    margin: 0.5rem;
+}
+
+h3 {
+    align-self: start;
+    margin: 1rem;
+}
+
+ul.barra {
+    font-size: 0.5rem;
+    border-bottom: .1rem solid black;
+}
+
+.meudeus {
+    font-size: 1rem;
+    align-self: flex-start;
+    border: none;
+}
+
+.suba {
+    width: 100%;
+}
+
+.inputa {
+    width: 100%;
+}
+
+.teste22 {
+    border-style: solid;
+    width: 75%;
+}

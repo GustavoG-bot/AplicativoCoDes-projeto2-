@@ -185,3 +185,13 @@ h4 {
 .hage {
     align-self: center;
 }
+
+li.sem_barra {
+    flex-direction: row;
+    align-items: center;
+    border-bottom: none;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+    flex-grow: 1;
+}

@@ -103,12 +103,9 @@ label {
     justify-content: center;
 }
 
-span {
-    font-size: x-large;
-}
 
 input {
-    margin: 1rem;
+    margin: 0.5rem;
     width: 50%;
 }
 
@@ -130,4 +127,20 @@ table {
 
 th{
     width: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    font-size: xx-large;
+}
+
+select {
+    font-size: x-large;
+}
+
+.entrar {
+    font-size: x-large;
 }
